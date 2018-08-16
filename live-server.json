@@ -1,0 +1,6 @@
+{
+  "port": 4200,
+  "root": "/",
+  "open": true,
+  "file": "index.html"
+}

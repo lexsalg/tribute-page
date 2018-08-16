@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Audiowide|Roboto|Exo');
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Roboto';
+  background-color: #e6f3ff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: auto;
+  background-color: white;
+  margin: 24px 0 24px 0;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+h1,
+#subtitle,
+#img-caption,
+.headline {
+  text-align: center;
+  font-family: 'Exo';
+}
+h1 {
+  margin-bottom: 8px;
+}
+#subtitle {
+  margin-bottom: 36px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+blockquote {
+  font-style: italic;
+}
+
+ul {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0;
+}
+li {
+  margin: 16px;
+  text-align: justify;
+}
+
+blockquote p,
+blockquote div {
+  text-align: center;
+}
